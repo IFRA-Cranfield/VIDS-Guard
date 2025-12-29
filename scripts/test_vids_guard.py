@@ -11,9 +11,9 @@ Test VIDS-Guard on an unseen dataset with real/ and fake/ folders.
 - Saves confusion matrices as PNGs next to the checkpoint.
 
 Usage (one line):
-python3 -u /gpfs/home/s376576/VL/test_vids_guard2.py \
-  --faces_root /gpfs/home/s376576/myproject/UDS2MTCNN \
-  --ckpt /gpfs/home/s376576/myproject/DFVDS/runs/vids_guard_vgb/epoch_011.pt \
+python3 -u //path to /test_vids_guard2.py \
+  --faces_root /path to /UDS2MTCNN \
+  --ckpt /path to //DFVDS/runs/vids_guard_vgb/epoch_011.pt \
   --eval_clips 4 --thr 0.55 --workers 8 --batch 8
 """
 
