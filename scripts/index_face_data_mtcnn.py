@@ -5,8 +5,8 @@ from tqdm import tqdm
 folders_len = 50
 
 # Deterministic listing
-real_paths = sorted(glob.glob('/gpfs/home/s376576/myproject/DFVDSMTCNN/real/*'))
-fake_paths = sorted(glob.glob('/gpfs/home/s376576/myproject/DFVDSMTCNN/fake/*'))
+real_paths = sorted(glob.glob('/path to /DFVDSMTCNN/real/*'))
+fake_paths = sorted(glob.glob('//path to /DFVDSMTCNN/fake/*'))
 
 # Build per-class DataFrames
 df_real = pd.DataFrame({'path': [Path(p) for p in real_paths], 'label': False})
@@ -47,7 +47,7 @@ df_videos['width']  = np.asarray(widths,  dtype=np.uint16)
 df_videos['frames'] = np.asarray(frames,  dtype=np.uint16)
 
 # Save
-out_path = '/gpfs/home/s376576/myproject/DFVDSMTCNN/videos.pkl'
+out_path = '//path to /DFVDSMTCNN/videos.pkl'
 df_videos.to_pickle(out_path)
 
 print(f"Real videos: {(~df_videos['label']).sum()}")
