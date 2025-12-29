@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda/
+
+# Logs and outputs
+*.log
+runs/
+outputs/
+results/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# Data
+data/
+datasets/
+*.pkl
+*.mp4
+*.avi
+
+# OS
+.DS_Store
+Thumbs.db
