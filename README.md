@@ -18,3 +18,5 @@ This repository **does not host any video data**. All datasets are publicly avai
 - **VIDS-Guard Dataset (v1.0 – Part 2: External Unseen Test Set)**  
   Alanazi, S., & Asif, S. (2025). VIDS-Guard Dataset (v1.0, Part 2 of 2) (Version 1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17382113
 > This repository provides code and preprocessing workflows only; users must download datasets directly from the original sources or Zenodo.
+>
+> Chekout the https://github.com/IFRA-Cranfield/VIDS-Guard/blob/main/scripts/reamde.md for how to use the respository.
