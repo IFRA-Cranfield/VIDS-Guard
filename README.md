@@ -1,6 +1,8 @@
 
 # VIDS-Guard
-
+<p align="center">
+  <img src="docs/paper_figure.png" alt="VIDS-Guard Framework" width="700"/>
+</p>
 VIDS-Guard is a forensics-aware deepfake video detection framework and benchmark dataset designed for robust cross-dataset generalization. The repository provides the full training and evaluation pipeline for the VIDS-Guard model, alongside scripts for dataset preprocessing and face extraction.
 
 The accompanying **VIDS-Guard Dataset (v1.0)** comprises **26,975 videos** (13,487 real / 13,488 fake) aggregated from eleven public benchmarks, covering identity swap, expression reenactment, full synthesis, and compression-based manipulations.
